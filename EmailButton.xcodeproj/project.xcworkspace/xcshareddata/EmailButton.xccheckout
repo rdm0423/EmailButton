@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E220631-7DDE-4607-BC25-CD6DA28AF69B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EmailButton</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FE22846634D9661CFF19549E3C25B134BC2222A2</key>
+		<string>https://github.com/rdm0423/EmailButton.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EmailButton.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FE22846634D9661CFF19549E3C25B134BC2222A2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rdm0423/EmailButton.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FE22846634D9661CFF19549E3C25B134BC2222A2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FE22846634D9661CFF19549E3C25B134BC2222A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EmailButton</string>
+		</dict>
+	</array>
+</dict>
+</plist>

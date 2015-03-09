@@ -7,16 +7,32 @@
 //
 
 #import "EBMailButtonViewController.h"
+#import <MessageUI/MessageUI.h>
 
-@interface EBMailButtonViewController ()
+@interface EBMailButtonViewController () <MFMailComposeViewControllerDelegate>
 
 @end
 
 @implementation EBMailButtonViewController
 
 - (IBAction)sendEmail:(id)sender {
+    
+    MFMailComposeViewController *mailViewController = [MFMailComposeViewController new];
+    mailViewController.mailComposeDelegate = self;
+    
+    [mailViewController setSubject:@"Awesome Message"];
+    [mailViewController setMessageBody:@"I am in the body" isHTML:NO];
 
     
+    [self presentViewController:mailViewController animated:YES completion:nil];
+
+    
+    
+}
+
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
